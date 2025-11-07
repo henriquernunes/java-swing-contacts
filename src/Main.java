@@ -1,7 +1,8 @@
-public class Main{
-    public static void main(String[] args) {
-        AccessContacts access = new AccessContacts();
+import app.ContactsApp;
+import javax.swing.SwingUtilities;
 
-        access.list();
-    }
+public class Main {
+  public static void main(String[] args) {
+    SwingUtilities.invokeLater(() -> new ContactsApp());
+  }
 }
