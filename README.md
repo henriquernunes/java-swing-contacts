@@ -18,11 +18,10 @@ Uma aplicação moderna de agenda de contatos desenvolvida em Java Swing, com in
 
 ## 🎯 Experiência do Usuário
 - Clique simples em um contato para ver detalhes
-- Feedback visual ao clicar (destaque temporário por 500ms)
+- Feedback visual ao clicar
 - Formulário validado para adicionar/editar contatos
 - Confirmação de exclusão para evitar acidentes
 - Renderização customizada de itens da lista com bordas arredondadas
-- Interface responsiva e intuitiva inspirada em iOS
 
 ## 🚀 Como Compilar e Executar
 
