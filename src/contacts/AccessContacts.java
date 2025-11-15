@@ -37,4 +37,17 @@ public class AccessContacts {
       System.out.println("Erro ao salvar contatos: " + e.getMessage());
     }
   }
+
+  public List<Contact> searchName(String name) {
+    List<Contact> result = new ArrayList<>();
+    List<Contact> contacts = list();
+
+    for (Contact c : contacts) {
+      if (c.getFirstName().toLowerCase().contains(name.toLowerCase()) ||
+          c.getLastName().toLowerCase().contains(name.toLowerCase())) {
+        result.add(c);
+      }
+    }
+    return result;
+  }
 }
