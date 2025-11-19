@@ -3,7 +3,6 @@ package design;
 import java.awt.*;
 
 public class UITheme {
-  // Cores iOS-inspired
   public static final Color PRIMARY_BLUE = new Color(0, 122, 255);
   public static final Color SECONDARY_BLUE = new Color(50, 170, 255);
   public static final Color LIGHT_BLUE = new Color(230, 244, 255);
